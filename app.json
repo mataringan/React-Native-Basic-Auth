@@ -1,30 +1,34 @@
 {
   "expo": {
-    "name": "my-app",
-    "slug": "my-app",
+    "name": "ngaosApp",
+    "slug": "ngaosApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/tfm_small.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/tfm.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/tfm_small.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.taofik_arianto.ngaosApp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/tfm.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e1b47d9f-0382-4395-80e7-0af74d600e31"
+      }
     }
   }
 }
